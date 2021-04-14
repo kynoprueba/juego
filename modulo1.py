@@ -7,8 +7,9 @@ class Humano():
     def hablar(self,mensaje):
        print(mensaje)
 
-    def lenguas(self):
-        print(self.idioma)
+    def lenguas(self,idioma):
+        return idioma
+
 
     def deportes(self):
         lista=['futbol','ciclismo','basket']
